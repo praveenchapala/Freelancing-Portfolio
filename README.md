@@ -1,45 +1,57 @@
 # 🚀 Freelancing Portfolio
 
-A premium, conversion-focused freelancing portfolio built with **React**, **Vite**, and **Tailwind CSS** to showcase my expertise in **AI Automation**, **n8n Workflows**, **Full-Stack Development**, **API Integrations**, and **Modern Web Applications**.
-
-The primary goal of this portfolio is to help startups, founders, and agencies understand how I can build scalable digital solutions that solve real business problems.
+A modern, high-performance portfolio showcasing my expertise in **AI Automation**, **n8n Workflows**, **Full-Stack Development**, and **Custom Software Solutions** for startups, founders, and growing businesses.
 
 ---
 
 ## 🌐 Live Demo
-
-> Coming Soon
+https://freelancing-portfolio-inky.vercel.app/
 
 ---
 
-## ✨ Features
+## ✨ Overview
 
-- Modern and premium UI/UX
+This portfolio is designed to demonstrate how I build scalable software solutions that automate business processes, improve productivity, and deliver measurable value.
+
+Whether it's an AI-powered workflow, a modern web application, or an API integration, this portfolio highlights my approach to building production-ready solutions.
+
+---
+
+## 🚀 Features
+
+- Premium modern UI/UX
 - Fully responsive design
-- AI Automation services showcase
-- n8n workflow portfolio
-- Featured project showcase
-- Interactive animations
+- AI Automation showcase
+- n8n Workflow portfolio
+- Featured project section
+- Smooth animations
 - SEO optimized
-- Accessibility friendly
+- Accessible design
 - Contact form integration
 - GitHub & LinkedIn integration
-- Fast loading and optimized performance
+- Fast loading performance
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 ### Frontend
+
 - React
 - Vite
 - Tailwind CSS
 
-### UI & Animation
-- Framer Motion
-- Lucide React
+### Animation
 
-### Tools
+- Framer Motion
+
+### Icons
+
+- Lucide React
+- React Icons
+
+### Development Tools
+
 - Git
 - GitHub
 - VS Code
@@ -48,34 +60,50 @@ The primary goal of this portfolio is to help startups, founders, and agencies u
 
 ## 📂 Project Structure
 
-```
-Freelancing-Portfolio/
+```text
+Freelancing-Portfolio
 │
+├── api/
 ├── public/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   ├── sections/
+│   ├── data/
 │   ├── layouts/
 │   ├── pages/
-│   ├── hooks/
 │   ├── services/
-│   ├── utils/
-│   ├── data/
 │   ├── styles/
-│   └── App.jsx
+│   ├── utils/
+│   ├── hooks/
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── package.json
 ├── vite.config.js
+├── tailwind.config.js
+├── postcss.config.js
 └── README.md
 ```
 
 ---
 
-## 📋 Planned Sections
+## 💼 Services
 
-- Hero Section
-- About Me
+- AI Workflow Automation
+- n8n Automation
+- AI Agent Development
+- Full-Stack Web Applications
+- REST API Integration
+- Landing Page Development
+- Business Process Automation
+- Custom Software Solutions
+
+---
+
+## 📌 Portfolio Sections
+
+- Hero
+- About
 - Services
 - Featured Projects
 - Development Process
@@ -88,61 +116,33 @@ Freelancing-Portfolio/
 
 ---
 
-## 🎯 Services
+## ⚙ Getting Started
 
-- AI Automation
-- n8n Workflow Automation
-- AI Agents
-- Full-Stack Web Development
-- REST API Integration
-- Chatbot Development
-- Landing Page Development
-- Business Process Automation
-
----
-
-## 📈 Current Status
-
-This project is currently under active development.
-
-Upcoming improvements include:
-
-- Portfolio case studies
-- Live project demos
-- Blog section
-- Performance optimizations
-- Dark mode enhancements
-- Interactive animations
-
----
-
-## 🚀 Getting Started
-
-Clone the repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/praveenchapala/Freelancing-Portfolio.git
 ```
 
-Navigate to the project
+### Navigate into the project
 
 ```bash
 cd Freelancing-Portfolio
 ```
 
-Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server
+### Start the development server
 
 ```bash
 npm run dev
 ```
 
-Build for production
+### Build for production
 
 ```bash
 npm run build
@@ -150,11 +150,36 @@ npm run build
 
 ---
 
+## 📈 Roadmap
+
+- [ ] Add real client case studies
+- [ ] Add project demo videos
+- [ ] Add technical blog
+- [ ] Improve performance
+- [ ] Add dark mode enhancements
+- [ ] Enhance animations
+- [ ] Integrate analytics
+- [ ] Add multilingual support
+
+---
+
 ## 📬 Connect With Me
 
-- GitHub: https://github.com/praveenchapala
-- LinkedIn: *(Coming Soon)*
-- Email: *(Your Email Here)*
+**GitHub**
+
+https://github.com/praveenchapala
+
+**LinkedIn**
+
+https://www.linkedin.com/in/chapala-praveen/
+
+**Portfolio**
+
+Coming Soon
+
+**Email**
+
+shipwithpraveen@gmail.com
 
 ---
 
@@ -166,4 +191,6 @@ This project is licensed under the MIT License.
 
 ## ⭐ Support
 
-If you like this project, consider giving it a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps support my work and motivates me to build more open-source projects.
