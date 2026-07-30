@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Terminal, ArrowUpRight } from 'lucide-react';
 import { Button } from '../common/Button';
+import logo from "../../assets/LogoProfile.png";
 
 const navItems = [
   { name: 'Services', href: '#services' },
@@ -58,17 +59,23 @@ export function Navbar() {
             href="#"
             className="flex items-center gap-2.5 group focus:outline-none focus-visible:ring-2 focus-visible:ring-white rounded-lg p-1"
           >
-            <div className="w-8 h-8 rounded-lg bg-zinc-900 border border-zinc-700/80 flex items-center justify-center text-white group-hover:border-zinc-400 transition-colors">
-              <Terminal className="w-4 h-4" />
-            </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-sm tracking-tight text-white group-hover:text-zinc-300 transition-colors">
-                Ship With Me<span className="text-zinc-500 font-mono text-xs ml-1">.DEV</span>
-              </span>
-              <span className="text-[10px] text-zinc-400 font-mono hidden sm:inline-block">
-                
-              </span>
-            </div>
+            <div className="flex items-center gap-3">
+  <img
+    src={logo}
+    alt="Ship With Me"
+    className="w-10 h-10 object-contain"
+  />
+
+  <div>
+    <h1 className="text-lg font-bold text-white">
+      Ship With Me
+    </h1>
+
+    <p className="text-xs text-zinc-400">
+      AI Automation
+    </p>
+  </div>
+</div>
           </a>
 
           {/* Desktop Navigation Links */}
