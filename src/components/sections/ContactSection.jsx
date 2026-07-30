@@ -22,10 +22,45 @@ export function ContactSection() {
     setTimeout(() => setCopied(false), 2500);
   }
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  try {
+    const response = await fetch("/api/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        name: formData.name,
+        email: formData.email,
+        projectType: formData.projectType,
+        budget: formData.budget,
+        message: formData.message,
+      }),
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      throw new Error(data.error || "Failed to send inquiry");
+    }
+
     setFormSubmitted(true);
+
+    setFormData({
+      name: "",
+      email: "",
+      projectType: "n8n AI Workflows",
+      budget: "<$1,500",
+      message: "",
+    });
+
+  } catch (error) {
+    console.error(error);
+    alert("Failed to send inquiry. Please try again.");
   }
+};
 
   return (
     <section id="contact" className="py-24 bg-black relative border-t border-zinc-900">
