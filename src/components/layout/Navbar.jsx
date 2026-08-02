@@ -72,7 +72,7 @@ export function Navbar() {
     </h1>
 
     <p className="text-xs text-zinc-400">
-      AI Automation
+      Enterprise AI Solutions
     </p>
   </div>
 </div>

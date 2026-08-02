@@ -45,7 +45,7 @@ export function HeroSection() {
             >
               <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
               <span className="text-xs font-mono text-zinc-300">
-                Available for Q3/Q4 Founder & Agency Sprints
+                Available for Domestic & International Client Projects
               </span>
             </motion.div>
 
