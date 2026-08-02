@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Terminal, ArrowUpRight } from 'lucide-react';
 import { Button } from '../common/Button';
-import logo from "../../assets/LogoProfile.png";
+<img src="/LogoProfile.png" alt="Logo" />
 
 const navItems = [
   { name: 'Services', href: '#services' },
@@ -61,7 +61,7 @@ export function Navbar() {
           >
             <div className="flex items-center gap-3">
   <img
-    src={logo}
+    src="/LogoProfile.png"
     alt="Ship With Me"
     className="w-10 h-10 object-contain"
   />
