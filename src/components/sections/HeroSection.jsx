@@ -56,7 +56,7 @@ export function HeroSection() {
               transition={{ duration: 0.6, delay: 0.1 }}
               className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight leading-[1.08]"
             >
-              I Build <span className="text-gradient">AI Automation</span>, n8n Workflows & Full-Stack Products.
+              We Build <span className="text-gradient">AI Automation</span>, n8n Workflows & Full-Stack Products.
             </motion.h1>
 
             {/* Subheadline Value Proposition */}
