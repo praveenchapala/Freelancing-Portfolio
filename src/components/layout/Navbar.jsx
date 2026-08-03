@@ -110,7 +110,7 @@ export function Navbar() {
               size="sm"
               icon={ArrowUpRight}
             >
-              Let's Build
+              Let's Create Some Impact
             </Button>
           </div>
 

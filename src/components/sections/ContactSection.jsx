@@ -182,7 +182,7 @@ function handleSubmit(e) {
                       <input
                         type="email"
                         required
-                        placeholder="alex@startup.com"
+                        placeholder="talarinithinstartup@gmail.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         className="w-full px-4 py-3 rounded-xl bg-zinc-900/90 border border-zinc-800 text-sm text-white placeholder-zinc-500 focus:outline-none focus:border-zinc-500 transition-colors"
@@ -216,10 +216,10 @@ function handleSubmit(e) {
                         onChange={(e) => setFormData({ ...formData, budget: e.target.value })}
                         className="w-full px-4 py-3 rounded-xl bg-zinc-900/90 border border-zinc-800 text-sm text-white focus:outline-none focus:border-zinc-500 transition-colors"
                       >
-                        <option value="<$1,500">Under $1,500</option>
-                        <option value="$1,500 - $3,000">$1,500 - $3,000</option>
-                        <option value="$3,000 - $5,000">$3,000 - $5,000</option>
-                        <option value="$5,000+">$5,000+ (Custom Scope)</option>
+                        <option value="<$250">Under $250</option>
+<option value="$250 - $750">$250 - $750</option>
+<option value="$750 - $1,500">$750 - $1,500</option>
+<option value="$1,500+">$1,500+ (Custom Scope)</option>
                       </select>
                     </div>
                   </div>
