@@ -68,7 +68,7 @@ export function Navbar() {
 
   <div>
     <h1 className="text-lg font-bold text-white">
-      Ship With Me
+      Ship With Us
     </h1>
 
     <p className="text-xs text-zinc-400">
@@ -138,7 +138,7 @@ export function Navbar() {
             <div className="flex flex-col gap-3">
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-emerald-950/50 border border-emerald-800/60 text-xs font-mono text-emerald-300 w-fit mb-2">
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                <span>Available Q3/Q4 Projects</span>
+                <span>Available for Domestic & International Client Projects </span>
               </div>
               {navItems.map((item) => (
                 <a
